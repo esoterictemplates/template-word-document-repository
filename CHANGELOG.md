@@ -6,4 +6,4 @@
 
 ## 0.1.0
 
-- Added a basic template with a README.md file and a CODE_OF_CONDUCT.md file.
+- Added a basic template with a [README.md](./README.md) file and a [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) file.
