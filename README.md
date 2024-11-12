@@ -4,7 +4,7 @@
 
 <h2 align="center"> License </h2>
 
-<sup> [Repository Name](https://github.com/Author/repository-name)[^1] Copyright (C) [year] by [Author](https://github.com/Author)[^2] is licensed under the [Esoteric Foundation Public License 1.0.10](./LICENSE)[^3]. </sup>
+<p align="center"><a href="https://github.com/Author/repository-name">Repository Name</a>[^1] Copyright (C) [year] by <a href="https://github.com/Author">Author</a>[^2] is licensed under the <a href="./LICENSE">Esoteric Foundation Public License 1.0.10</a>[^3]. </p>
 
 [^1]: This Git repository and all of its contents, past, present, and future (the "Licensed Material").
 [^2]: (The "Licensor").
