@@ -2,7 +2,7 @@
 
 <p align="center">Repository description.</p>
 
-<h2 align="center"> License </h2>
+<h2 align="center">License</h2>
 
 <p align="center"><a href="https://github.com/Author/repository-name">Repository Name</a>[^1] Copyright (C) [year] by <a href="https://github.com/Author">Author</a>[^2] is licensed under the <a href="./LICENSE">Esoteric Foundation Public License 1.0.10</a>[^3]. </p>
 
