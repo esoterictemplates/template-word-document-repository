@@ -1,2 +1,3 @@
-# template-repository
-A general-purpose template for GitHub repositories.
+<h1 align="center">Repository Name</h1>
+
+<p align="center">Repository description.</p>
