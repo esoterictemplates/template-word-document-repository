@@ -1,10 +1,10 @@
-<h1 align="center">Repository Name</h1>
+# Repository Name
 
-<p align="center">A short sentence that describes the repository and what function it serves.</p>
+A short sentence that describes the repository and what function it serves.
 
-<h2 align="center">License</h2>
+## License
 
-<sup><a href="https://github.com/Author/repository-name">Repository Name</a>[^1] Copyright &copy; [year] by <a href="https://github.com/Author">Author</a>[^2] is licensed under the <a href="./LICENSE">Esoteric Foundation Public License 1.0.10</a>[^3].</sup>
+<sup>[Repository Name](https://github.com/Author/repository-name)[^1] Copyright &copy; [year] by [Author](https://github.com/Author)[^2] is licensed under the [Esoteric Foundation Public License 1.0.10](./LICENSE)[^3].</sup>
 
 [^1]: This Git repository and all of its contents, past, present, and future (the "Licensed Material").
 [^2]: (The "Licensor").
