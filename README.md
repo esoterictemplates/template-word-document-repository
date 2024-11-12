@@ -1,6 +1,6 @@
 <h1 align="center">Repository Name</h1>
 
-<p align="center">Repository description.</p>
+<p align="center">A short sentence that describes the repository and what function it serves.</p>
 
 <h2 align="center">License</h2>
 
