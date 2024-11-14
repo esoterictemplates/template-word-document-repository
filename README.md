@@ -2,6 +2,10 @@
 
 A short sentence that describes the repository and what function it serves.
 
+## Template
+
+All information to do with the template repository is under [this heading "Template"](#template).
+
 ## Changelog
 
 See [CHANGELOG.md](./CHANGELOG.md) for a list of changes throughout different versions.
