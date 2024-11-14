@@ -10,13 +10,13 @@ All information to do with the template repository is under [this heading "Templ
 
 The following serves as a checklist - a list of tasks to complete when creating a new project using this template.
 
-- [] Click on "Use this template" and follow the steps to create a new repository.
-- [] Update the repository name in this file.
-- [] Update the repository description in this file.
-- [] Fill in the information in the [license](#license) heading in this file.
-- [] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
-- [] Clear the [changelog](./CHANGELOG.md) file.
-- [] Clear the heading "[checklist](#checklist)" in this file.
+- [ ] Click on "Use this template" and follow the steps to create a new repository.
+- [ ] Update the repository name in this file.
+- [ ] Update the repository description in this file.
+- [ ] Fill in the information in the [license](#license) heading in this file.
+- [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
+- [ ] Clear the [changelog](./CHANGELOG.md) file.
+- [ ] Clear the heading "[checklist](#checklist)" in this file.
 
 ## Changelog
 
