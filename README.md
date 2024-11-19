@@ -28,8 +28,17 @@ See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for the code of conduct.
 
 ## License
 
-<sup>[Repository Name](https://github.com/Author/repository-name)[^1] Copyright &copy; [year] by [Author](https://github.com/Author)[^2] is licensed under the [Esoteric Foundation Public License 1.0.10](./LICENSE)[^3].</sup>
+Copyright (C) <year>  <name of author>
 
-[^1]: This Git repository and all of its contents, past, present, and future. (The "Licensed Material")
-[^2]: The "Licensor"
-[^3]: The "Public License"
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
