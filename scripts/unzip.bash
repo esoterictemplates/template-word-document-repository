@@ -16,3 +16,5 @@ unzip -o "Document.zip"
 # rm "Document.zip"
 
 echo "Extraction complete."
+
+mv "Document.zip" "Document.docx"
