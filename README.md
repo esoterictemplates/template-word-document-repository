@@ -1,6 +1,6 @@
 # Template Repository
 
-A general-purpose template for GitHub repositories.
+This repository serves as a general-purpose template for generating new repositories.
 
 ## Template
 
