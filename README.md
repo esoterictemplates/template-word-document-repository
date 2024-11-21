@@ -24,6 +24,7 @@ The following serves as a checklist - a list of tasks to complete when creating 
 - [ ] Fill in the information under the [license](#license) heading in this file.
 - [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
+- [ ] Update the information in the [CITATION.cff](./CITATION.cff) file.
 - [ ] Clear the heading "[Using This Template](#using-this-template)" in this file.
 
 #### License
