@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Template Repository
+message: If you need to cite this repository, please do it as specified in this file.
+type: software
+authors:
+  - name: Esoteric Enderman
+    alias: EE
+    website: 'https://enderman.dev'
+    email: esotericenderman@gmail.com
+    orcid: 'https://orcid.org/0009-0007-4990-9556'
+identifiers:
+  - type: url
+    value: 'https://github.com/EsotericTemplates/template-repository'
+    description: The link to the GitHub repository.
+repository-code: 'https://github.com/EsotericTemplates/template-repository'
+url: https://github.com/EsotericTemplates/template-repository?tab=readme-ov-file
+repository-artifact: 'https://github.com/EsotericTemplates/template-repository/releases'
+abstract: >
+  This repository serves as a general-purpose template for generating new GitHub repositories.
+keywords:
+  - template
+  - repository
+  - generate
+  - generator
+  - github
+license: GPL-3.0
+commit: 6f4f7ab22086d3225fbb45b3f6ad9f8fe231a947
+version: 0.5.0
+date-released: '2024-11-21'
