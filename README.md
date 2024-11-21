@@ -30,7 +30,7 @@ The following serves as a checklist - a list of tasks to complete when creating 
 #### License
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
-  <a property="dct:title" rel="cc:attributionURL" href="https://github.com/EsotericTemplates/template-asset-repository">Template Asset Repository</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://enderman.dev">
+  <a property="dct:title" rel="cc:attributionURL" href="https://github.com/EsotericTemplates/template-asset-repository">Template Asset Repository</a> &copy; 2024 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://enderman.dev">
     Esoteric Enderman
   </a> is licensed under 
   <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">
