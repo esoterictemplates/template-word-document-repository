@@ -33,7 +33,7 @@ This template is free software: you can redistribute it and/or modify it under t
 
 This template is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](./LICENSE) for more details.
 
-You should have received a copy of the [GNU General Public License](./LICENSE) along with this program. If not, see <https://www.gnu.org/licenses/>.
+You should have received a copy of the [GNU General Public License](./LICENSE) along with this template. If not, see <https://www.gnu.org/licenses/>.
 
 ## Changelog
 
