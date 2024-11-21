@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.0
+
+- Update [the license](./LICENSE).
+
 ## 0.3.0
 
 - Added a [checklist](./README.md#checklist).
