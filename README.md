@@ -27,7 +27,7 @@ The following serves as a checklist - a list of tasks to complete when creating 
 
 #### License
 
-Copyright (C) 2024 [Esoteric Enderman](https://enderman.dev)
+[Template Repository](https://github.com/EsotericTemplates/template-repository) Copyright (C) 2024 [Esoteric Enderman](https://enderman.dev)
 
 This template is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](./LICENSE) as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
@@ -45,7 +45,7 @@ See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for the code of conduct.
 
 ## License
 
-Copyright (C) \<year> \<name of author>
+[Repository Name](https://github.com/repository-owner-name/repository-name) Copyright (C) \<year> \<name of author>
 
 This program is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](./LICENSE) as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
