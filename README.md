@@ -1,8 +1,8 @@
 # Template Repository
 
-<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [GPL-3.0](./LICENSE), generated from [Template Repository](https://github.com/EsotericTemplates/template-repository) [1.0.0](https://github.com/EsotericTemplates/template-repository/tree/1.0.0)</sup>
+<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [GPL-3.0](./LICENSE), generated from [Template Repository](https://github.com/EsotericTemplates/template-asset-repository) [1.0.0](https://github.com/EsotericTemplates/template-asset-repository/tree/1.0.0)</sup>
 
-[![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository) [![Language Count](https://img.shields.io/github/languages/count/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository) [![Top Language](https://img.shields.io/github/languages/top/EsotericTemplates/template-repository?label=top%20language)](https://github.com/EsotericTemplates/template-repository) [![GitHub Issues](https://img.shields.io/github/issues/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository/issues) [![GitHub Stars](https://img.shields.io/github/stars/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository/forks)
+[![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository) [![Language Count](https://img.shields.io/github/languages/count/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository) [![Top Language](https://img.shields.io/github/languages/top/EsotericTemplates/template-asset-repository?label=top%20language)](https://github.com/EsotericTemplates/template-asset-repository) [![GitHub Issues](https://img.shields.io/github/issues/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/issues) [![GitHub Stars](https://img.shields.io/github/stars/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/forks)
 
 This repository serves as a general-purpose template for generating new GitHub repositories.
 
@@ -33,7 +33,7 @@ Make sure to update the information in [CITATION.cff](./CITATION.cff) when relea
 
 #### License
 
-[Template Repository](https://github.com/EsotericTemplates/template-repository) Copyright (C) 2024 [Esoteric Enderman](https://enderman.dev)
+[Template Repository](https://github.com/EsotericTemplates/template-asset-repository) Copyright (C) 2024 [Esoteric Enderman](https://enderman.dev)
 
 This template is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](./LICENSE) as published by the [Free Software Foundation](https://www.fsf.org/), either [version 3](./LICENSE) of the License, or (at your option) any later version.
 
