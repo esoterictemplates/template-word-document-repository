@@ -1,4 +1,4 @@
-# Define the files and directories to include
+# Define the paths to the files and directories
 $items = @("_rels", "docProps", "word", "[Content_Types].xml")
 
 # Check if all required items exist
@@ -18,27 +18,34 @@ if ($missing) {
     exit 1
 }
 
-# Create a temporary directory for the ZIP process
-$tempDir = New-Item -ItemType Directory -Path (Join-Path $env:TEMP "WordZipTemp") -Force
+# Path to the 7-Zip executable
+$sevenZipPath = "C:\Program Files\7-Zip\7z.exe"
 
-# Copy the required files and directories to the temporary directory
-foreach ($item in $items) {
-    Copy-Item -Path $item -Destination $tempDir -Recurse
+# Verify 7-Zip is installed
+if (-not (Test-Path $sevenZipPath)) {
+    Write-Host "Error: 7-Zip not found at $sevenZipPath. Please install it and try again." -ForegroundColor Red
+    exit 1
 }
 
-# Define the ZIP and DOCX file paths
+# Create the ZIP file
 $zipFile = Join-Path $PWD "Document.zip"
 $docxFile = Join-Path $PWD "Document.docx"
 
-# Create the ZIP file using .NET compression
-Add-Type -AssemblyName "System.IO.Compression.FileSystem"
-[System.IO.Compression.ZipFile]::CreateFromDirectory($tempDir.FullName, $zipFile)
+# Build the 7-Zip command
+$command = @("$sevenZipPath", "a", "-tzip", $zipFile)
+$command += $items
 
-# Clean up the temporary directory
-Remove-Item -Path $tempDir.FullName -Recurse -Force
+# Run the 7-Zip command
+try {
+    Start-Process -FilePath $sevenZipPath -ArgumentList $command -Wait -NoNewWindow
+    Write-Host "Created $zipFile using 7-Zip."
+} catch {
+    Write-Host "Error: Failed to create $zipFile. Exiting." -ForegroundColor Red
+    exit 1
+}
 
 # Rename the ZIP file to .docx
 if (Test-Path $docxFile) { Remove-Item -Path $docxFile -Force }
 Rename-Item -Path $zipFile -NewName $docxFile
 
-Write-Host "Document.docx has been created successfully."
+Write-Host "Document.docx has been created successfully and should now open in Word."
