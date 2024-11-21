@@ -1,4 +1,4 @@
-# Template Repository
+# Template Asset Repository
 
 <sup>By [Esoteric Enderman](https://enderman.dev), licensed under [GPL-3.0](./LICENSE), generated from [Template Repository](https://github.com/EsotericTemplates/template-asset-repository) [1.0.0](https://github.com/EsotericTemplates/template-asset-repository/tree/1.0.0)</sup>
 
