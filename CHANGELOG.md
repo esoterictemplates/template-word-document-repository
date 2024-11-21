@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.0
+
+- Updated [README.md](./README.md).
+- Added badges to [README.md](./README.md).
+
 ## 0.4.0
 
 - Updated [the license](./LICENSE).
