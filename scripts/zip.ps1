@@ -18,22 +18,27 @@ if ($missing) {
     exit 1
 }
 
-# Create the zip file
-$zipFile = "Document.zip"
-try {
-    Compress-Archive -Path $items -DestinationPath $zipFile -Force
-    Write-Host "Created $zipFile."
-} catch {
-    Write-Host "Error: Failed to create $zipFile. Exiting." -ForegroundColor Red
-    exit 1
+# Create a temporary directory for the ZIP process
+$tempDir = New-Item -ItemType Directory -Path (Join-Path $env:TEMP "WordZipTemp") -Force
+
+# Copy the required files and directories to the temporary directory
+foreach ($item in $items) {
+    Copy-Item -Path $item -Destination $tempDir -Recurse
 }
 
-# Rename the zip file to Document.docx
-$docxFile = "Document.docx"
-try {
-    Rename-Item -Path $zipFile -NewName $docxFile -Force
-    Write-Host "$docxFile has been created."
-} catch {
-    Write-Host "Error: Failed to rename $zipFile to $docxFile. Exiting." -ForegroundColor Red
-    exit 1
-}
+# Define the ZIP and DOCX file paths
+$zipFile = Join-Path $PWD "Document.zip"
+$docxFile = Join-Path $PWD "Document.docx"
+
+# Create the ZIP file using .NET compression
+Add-Type -AssemblyName "System.IO.Compression.FileSystem"
+[System.IO.Compression.ZipFile]::CreateFromDirectory($tempDir.FullName, $zipFile)
+
+# Clean up the temporary directory
+Remove-Item -Path $tempDir.FullName -Recurse -Force
+
+# Rename the ZIP file to .docx
+if (Test-Path $docxFile) { Remove-Item -Path $docxFile -Force }
+Rename-Item -Path $zipFile -NewName $docxFile
+
+Write-Host "Document.docx has been created successfully."
