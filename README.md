@@ -43,10 +43,6 @@ See [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for the code of conduct.
 
 ## License
 
-[Repository Name](https://github.com/repository-owner-name/repository-name) Copyright (C) \<year> \<name of author>
-
-This program is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](./LICENSE) as published by the [Free Software Foundation](https://www.fsf.org/), either [version 3](./LICENSE) of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](./LICENSE) for more details.
-
-You should have received a copy of the [GNU General Public License](./LICENSE) along with this program. If not, see <[gnu.org/licenses](https://www.gnu.org/licenses/)>.
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+  <a property="dct:title" rel="cc:attributionURL" href="https://github.com/repository-owner-name/repository-name">Repository Name</a> &copy; 2024 by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://repository-author.xyz">Repository Author</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display: inline-block">CC BY-SA 4.0</a><img style="height: 22px !important; margin-left: 3px; vertical-align: middle" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="Creative Commons Icon" /><img style="height: 22px !important; margin-left: 3px; vertical-align: middle" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="Creative Commons Attribution Icon" /><img style="height: 22px !important; margin-left: 3px; vertical-align: middle" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="Creative Commons ShareAlike Icon" />.
+</p>
