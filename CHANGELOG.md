@@ -2,7 +2,7 @@
 
 ## 0.4.0
 
-- Update [the license](./LICENSE).
+- Updated [the license](./LICENSE).
 
 ## 0.3.0
 
