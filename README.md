@@ -2,13 +2,15 @@
 
 This repository serves as a general-purpose template for generating new GitHub repositories.
 
-## Template
+## Usage
 
-All information to do with the template repository is under [this heading "Template"](#template).
+### Using This Template
 
-### Checklist
+All information to do with the template repository is under this heading "[Using This Template](#using-this-template)".
 
-The following serves as a checklist - a list of tasks to complete when creating a new project using this template.
+#### Checklist
+
+The following serves as a checklist - a list of tasks to complete when creating a new repository using this template.
 
 - [ ] Click on "Use this template" and follow the steps to create a new repository.
 - [ ] Update the repository name in this file.
@@ -16,7 +18,7 @@ The following serves as a checklist - a list of tasks to complete when creating 
 - [ ] Fill in the information in the [license](#license) heading in this file.
 - [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
-- [ ] Clear the heading "[checklist](#checklist)" in this file.
+- [ ] Clear the heading "[Using This Template](#using-this-template)" in this file.
 
 ## Changelog
 
