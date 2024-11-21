@@ -4,7 +4,7 @@
 
 [![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository) [![Language Count](https://img.shields.io/github/languages/count/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository) [![Top Language](https://img.shields.io/github/languages/top/EsotericTemplates/template-asset-repository?label=top%20language)](https://github.com/EsotericTemplates/template-asset-repository) [![GitHub Issues](https://img.shields.io/github/issues/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/issues) [![GitHub Stars](https://img.shields.io/github/stars/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/forks)
 
-This repository serves as a general-purpose template for generating new GitHub repositories.
+This repository serves as a template for generating new GitHub repositories for asset files.
 
 ## Usage
 
