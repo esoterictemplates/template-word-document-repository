@@ -1,8 +1,6 @@
 # Template Repository
 
-<sup>By [Esoteric Enderman](https://enderman.dev)</sup>
-
-<sup>Generated from [Template Repository](https://github.com/EsotericTemplates/template-repository) [0.4.0](https://github.com/EsotericTemplates/template-repository/tree/0.4.0)</sup>
+<sup>By [Esoteric Enderman](https://enderman.dev)</sup> <sup>Generated from [Template Repository](https://github.com/EsotericTemplates/template-repository) [0.4.0](https://github.com/EsotericTemplates/template-repository/tree/0.4.0)</sup>
 
 This repository serves as a general-purpose template for generating new GitHub repositories.
 
