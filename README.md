@@ -2,7 +2,7 @@
 
 <sup>By [Esoteric Enderman](https://enderman.dev)</sup> <sup>Generated from [Template Repository](https://github.com/EsotericTemplates/template-repository) [0.4.0](https://github.com/EsotericTemplates/template-repository/tree/0.4.0)</sup>
 
-![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-repository)
+![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-repository) ![Language Count](https://img.shields.io/github/languages/count/EsotericTemplates/template-repository)
 
 This repository serves as a general-purpose template for generating new GitHub repositories.
 
