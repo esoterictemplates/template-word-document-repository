@@ -25,6 +25,16 @@ The following serves as a checklist - a list of tasks to complete when creating 
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
 - [ ] Clear the heading "[Using This Template](#using-this-template)" in this file.
 
+#### License
+
+Copyright (C) 2024 [Esoteric Enderman](https://enderman.dev)
+
+This template is free software: you can redistribute it and/or modify it under the terms of the [GNU General Public License](./LICENSE) as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This template is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](./LICENSE) for more details.
+
+You should have received a copy of the [GNU General Public License](./LICENSE) along with this program. If not, see <https://www.gnu.org/licenses/>.
+
 ## Changelog
 
 See [CHANGELOG.md](./CHANGELOG.md) for a list of changes throughout different versions.
