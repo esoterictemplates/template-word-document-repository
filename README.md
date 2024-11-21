@@ -27,10 +27,6 @@ The following serves as a checklist - a list of tasks to complete when creating 
 - [ ] Update the information in the [CITATION.cff](./CITATION.cff) file.
 - [ ] Clear the heading "[Using This Template](#using-this-template)" in this file.
 
-#### Releasing New Versions
-
-Make sure to update the information in [CITATION.cff](./CITATION.cff) when releasing new versions.
-
 #### License
 
 [Template Repository](https://github.com/EsotericTemplates/template-asset-repository) Copyright (C) 2024 [Esoteric Enderman](https://enderman.dev)
