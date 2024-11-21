@@ -4,6 +4,7 @@ $items = @("_rels", "docProps", "word", "[Content_Types].xml")
 # Check if all required items exist
 $missing = $false
 foreach ($item in $items) {
+    Write-Host "Checking $item..."
     if (-not (Test-Path $item)) {
         Write-Host "Error: $item not found!" -ForegroundColor Red
         $missing = $true
