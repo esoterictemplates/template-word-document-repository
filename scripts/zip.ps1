@@ -18,11 +18,11 @@ if ($missing) {
     exit 1
 }
 
-# Path to the 7-Zip executable
-$sevenZipPath = "C:\Program Files\7-Zip\7z.exe"
+# Path to the 7-Zip executable (quoted)
+$sevenZipPath = '"C:\Program Files\7-Zip\7z.exe"'
 
 # Verify 7-Zip is installed
-if (-not (Test-Path $sevenZipPath)) {
+if (-not (Test-Path $sevenZipPath -replace '"', '')) {
     Write-Host "Error: 7-Zip not found at $sevenZipPath. Please install it and try again." -ForegroundColor Red
     exit 1
 }
@@ -32,12 +32,18 @@ $zipFile = Join-Path $PWD "Document.zip"
 $docxFile = Join-Path $PWD "Document.docx"
 
 # Build the 7-Zip command
-$command = @("$sevenZipPath", "a", "-tzip", $zipFile)
-$command += $items
+$command = @("$sevenZipPath", "a", "-tzip", "`"$zipFile`"")
+
+# Add the items to the command (each item quoted)
+foreach ($item in $items) {
+    $command += "`"$item`""
+}
 
 # Run the 7-Zip command
 try {
-    Start-Process -FilePath $sevenZipPath -ArgumentList $command -Wait -NoNewWindow
+    # Join the arguments into a single string for Start-Process
+    $arguments = $command[1..($command.Count - 1)] -join " "
+    Start-Process -FilePath $sevenZipPath -ArgumentList $arguments -Wait -NoNewWindow
     Write-Host "Created $zipFile using 7-Zip."
 } catch {
     Write-Host "Error: Failed to create $zipFile. Exiting." -ForegroundColor Red
