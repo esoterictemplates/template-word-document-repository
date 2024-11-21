@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+
+- Updated [README.md](./README.md).
+- Added [CITATION.cff](./CITATION.cff).
+
 ## 0.5.0
 
 - Updated [README.md](./README.md).
