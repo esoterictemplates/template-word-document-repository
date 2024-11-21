@@ -20,6 +20,7 @@ The following serves as a checklist - a list of tasks to complete when creating 
 - [ ] Update the [repository name](#template-repository) in this file.
 - [ ] Update the [repository description](#template-repository) in this file.
 - [ ] Update the [repository author](#template-repository) in this file.
+- [ ] Update the [links](#template-repository) of the badges.
 - [ ] Fill in the information under the [license](#license) heading in this file.
 - [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
