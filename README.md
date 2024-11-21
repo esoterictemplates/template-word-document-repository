@@ -1,6 +1,6 @@
-# Repository Name
+# Template Repository
 
-A short sentence that describes the repository and what function it serves.
+This repository serves as a general-purpose template for generating new repositories.
 
 ## Template
 
