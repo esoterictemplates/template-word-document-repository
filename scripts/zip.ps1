@@ -5,7 +5,9 @@ $items = @("_rels", "docProps", "word", "[Content_Types].xml")
 $missing = $false
 foreach ($item in $items) {
     Write-Host "Checking $item..."
-    if (-not (Test-Path $item)) {
+    # Escape special characters in the item name
+    $escapedItem = $item -replace '\[', '`[' -replace '\]', '`]'
+    if (-not (Test-Path $escapedItem)) {
         Write-Host "Error: $item not found!" -ForegroundColor Red
         $missing = $true
     }
