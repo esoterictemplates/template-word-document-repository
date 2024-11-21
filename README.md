@@ -1,5 +1,7 @@
 # Template Repository
 
+<sup>By [Esoteric Enderman](https://enderman.dev)</sup>
+
 This repository serves as a general-purpose template for generating new GitHub repositories.
 
 ## Usage
