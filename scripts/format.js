@@ -27,6 +27,6 @@ function getFiles(directory) {
 
 getFiles(".").forEach((file) => {
     const content = readFileSync(file);
-    const formatted = xmlFormat(content.toString());
+    const formatted = xmlFormat(content.toString()) + "\n";
     writeFileSync(file, formatted);
 });
