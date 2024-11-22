@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <w:settings xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16du">
     <w:zoom w:percent="100"/>
+    <w:proofState w:spelling="clean"/>
     <w:defaultTabStop w:val="720"/>
     <w:characterSpacingControl w:val="doNotCompress"/>
     <w:compat>
@@ -17,9 +18,13 @@
         <w:rsid w:val="002B329A"/>
         <w:rsid w:val="00381929"/>
         <w:rsid w:val="005F530B"/>
+        <w:rsid w:val="006E3B30"/>
+        <w:rsid w:val="00896288"/>
         <w:rsid w:val="00905FFB"/>
         <w:rsid w:val="00B84957"/>
+        <w:rsid w:val="00BD4D9D"/>
         <w:rsid w:val="00CD77AE"/>
+        <w:rsid w:val="00D732B3"/>
     </w:rsids>
     <m:mathPr>
         <m:mathFont m:val="Cambria Math"/>
