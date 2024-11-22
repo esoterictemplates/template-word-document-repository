@@ -1,2 +1,5 @@
 *.docx
 *.zip
+
+package-lock.json
+node_modules
