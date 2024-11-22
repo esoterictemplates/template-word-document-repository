@@ -4,7 +4,7 @@
 
 [![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository) [![Language Count](https://img.shields.io/github/languages/count/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository) [![Top Language](https://img.shields.io/github/languages/top/EsotericTemplates/template-word-document-repository?label=top%20language)](https://github.com/EsotericTemplates/template-word-document-repository) [![GitHub Issues](https://img.shields.io/github/issues/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository/issues) [![GitHub Stars](https://img.shields.io/github/stars/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository/forks)
 
-This repository serves as a template for generating new GitHub repositories for documents.
+This repository serves as a template for generating new GitHub repositories for Word documents.
 
 ## Usage
 
