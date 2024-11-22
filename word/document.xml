@@ -6,9 +6,7 @@
                 <w:pStyle w:val="Title"/>
             </w:pPr>
             <w:r>
-                <w:t>
-                    Title
-                </w:t>
+                <w:t>Title</w:t>
             </w:r>
         </w:p>
         <w:p w14:paraId="250D4BFF" w14:textId="586F120F" w:rsidR="00B84957" w:rsidRDefault="00B84957" w:rsidP="00B84957">
@@ -16,9 +14,7 @@
                 <w:pStyle w:val="Subtitle"/>
             </w:pPr>
             <w:r>
-                <w:t>
-                    By Author
-                </w:t>
+                <w:t>By Author</w:t>
             </w:r>
         </w:p>
         <w:p w14:paraId="0C55CDB6" w14:textId="7CDAC7D8" w:rsidR="00B84957" w:rsidRDefault="00B84957" w:rsidP="00B84957">
@@ -26,16 +22,12 @@
                 <w:pStyle w:val="Heading1"/>
             </w:pPr>
             <w:r>
-                <w:t>
-                    Heading 1
-                </w:t>
+                <w:t>Heading 1</w:t>
             </w:r>
         </w:p>
         <w:p w14:paraId="39E598A6" w14:textId="6CABFE63" w:rsidR="00B84957" w:rsidRPr="00B84957" w:rsidRDefault="00B84957" w:rsidP="00B84957">
             <w:r>
-                <w:t>
-                    Write text here.
-                </w:t>
+                <w:t>Write text here.</w:t>
             </w:r>
         </w:p>
         <w:sectPr w:rsidR="00B84957" w:rsidRPr="00B84957">

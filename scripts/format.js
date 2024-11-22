@@ -27,6 +27,6 @@ function getFiles(directory) {
 
 getFiles(".").forEach((file) => {
     const content = readFileSync(file);
-    const formatted = xmlFormat(content.toString(), {lineSeparator: "\n"}) + "\n";
+    const formatted = xmlFormat(content.toString(), {lineSeparator: "\n", collapseContent: true}) + "\n";
     writeFileSync(file, formatted);
 });
