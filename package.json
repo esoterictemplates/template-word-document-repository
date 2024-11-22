@@ -1,5 +1,6 @@
 {
   "devDependencies": {
     "xml-formatter": "^3.6.3"
-  }
+  },
+  "type": "module"
 }
