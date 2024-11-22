@@ -7,7 +7,7 @@ const git = home + "/.gitconfig";
 
 const content = readFileSync(git).toString();
 
-const userRegex = /\[user\]\s+(\w+ ?= ?"?.+"?\n\s*)*name ?= ?"?(?<name>.+)"?/
+const userRegex = /\[user\]\s+(\w+ ?= ?"?.+"?\n\s*)*name ?= ?"?(?<name>[^"]+)"?/
 const userName = content.match(userRegex)?.groups?.name;
 
 if (userName === null) {
