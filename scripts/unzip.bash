@@ -20,3 +20,4 @@ echo "Extraction complete."
 mv "Document.zip" "Document.docx"
 
 node scripts/format.js
+node scripts/replaceAuthor.js
