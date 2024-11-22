@@ -6,7 +6,25 @@
 
 This repository serves as a template for generating new GitHub repositories for Word documents.
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/)
+- Run `npm i`
+- [PowerShell](https://github.com/PowerShell/PowerShell)
+- [Bash](https://git.savannah.gnu.org/gitweb/?p=bash.git)
+
 ## Usage
+
+### Editing The Document
+
+#### Compressing to a Word Document
+
+- Run `scripts/zip.ps1`.
+
+#### Decompressing to XML Files For Version Control
+
+- Run `scripts/unzip.bash`.
+- Make sure you have your author name configured in your .gitconfig.
 
 ### Using This Template
 
