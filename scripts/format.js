@@ -11,7 +11,7 @@ function getFiles(directory) {
     const files = readdirSync(directory);
     files.forEach(file => {
         const path = `${directory}/${file}`;
-        if (file.endsWith(".xml") || file.endsWith(".xml.rels")) {
+        if (file.endsWith(".xml") || file.endsWith(".xml.rels") || file.endsWith(".rels")) {
             output.push(path);
         } else {
             try {
