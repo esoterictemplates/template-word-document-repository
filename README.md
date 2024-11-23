@@ -1,6 +1,6 @@
 # Template Zip File Repository
 
-<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [CC BY-SA-4.0](./LICENSE), generated from [Template Zip File Repository](https://github.com/EsotericTemplates/template-zip-file-repository) [1.1.1](https://github.com/EsotericTemplates/template-zip-file-repository/tree/1.1.1)</sup>
+<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [CC BY-SA-4.0](./LICENSE), generated from [Template Zip File Repository](https://github.com/EsotericTemplates/template-zip-file-repository) [1.1.2](https://github.com/EsotericTemplates/template-zip-file-repository/tree/1.1.2)</sup>
 
 [![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-zip-file-repository)](https://github.com/EsotericTemplates/template-zip-file-repository)
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- Fixed zip script.
+
 ## 1.1.1
 
 - Pulled upstream $\rightarrow$ added [.gitignore](./.gitignore).
