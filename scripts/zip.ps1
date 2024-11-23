@@ -23,7 +23,13 @@ $items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
     
     # Debugging: Show the relative path of each file
     Write-Host "Checking file: $relativePath"
-    
+
+    for ($i = 0; $i -lt $excludedItems.Length; $i++) {
+        if ($relativePath -like "*$($excludedItems[$i])*") {
+            return $false
+        }
+    }
+
     # Exclude items if they match any of the exclusions
     -not ($excludedItems -contains $relativePath)
 } | ForEach-Object {
