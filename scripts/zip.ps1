@@ -7,23 +7,22 @@ if (-not $fileExtension -or $fileExtension -match '[^\w]') {
     exit 1
 }
 
-# Define the paths to the files and directories
-$items = @("_rels", "docProps", "word", "[Content_Types].xml")
+# Define the exclusions
+$excludedItems = @(
+    ".git", ".vscode", "assets", "node_modules", "scripts",
+    ".gitignore", "CHANGELOG.md", "CODE_OF_CONDUCT.md", 
+    "LICENSE", "package.json", "README.md"
+)
 
-# Check if all required items exist
-$missing = $false
-foreach ($item in $items) {
-    Write-Host "Checking $item..."
-    # Escape special characters in the item name
-    $escapedItem = $item -replace '\[', '`[' -replace '\]', '`]'
-    if (-not (Test-Path $escapedItem)) {
-        Write-Host "Error: $item not found!" -ForegroundColor Red
-        $missing = $true
-    }
-}
+# Get all items in the current directory excluding the specified ones
+$items = Get-ChildItem -Path $PWD -Recurse -File | Where-Object {
+    $relativePath = $_.FullName -replace "$PWD[\\\/]?", ""
+    -not ($relativePath -in $excludedItems)
+} | ForEach-Object { $_.FullName }
 
-if ($missing) {
-    Write-Host "One or more required files/directories are missing. Exiting." -ForegroundColor Red
+# Check if there are items to process
+if (-not $items) {
+    Write-Host "Error: No items found to include in the archive. Exiting." -ForegroundColor Red
     exit 1
 }
 
@@ -45,7 +44,7 @@ $command = @("$sevenZipPath", "a", "-tzip", "`"$zipFile`"")
 
 # Add the items to the command (each item quoted)
 foreach ($item in $items) {
-    $command += "`"$item`""
+    $command += "`"$item`""  # Add escaped paths to the command
 }
 
 # Run the 7-Zip command
