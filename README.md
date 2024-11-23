@@ -35,10 +35,10 @@ All information to do with the template repository is under this heading "[Using
 The following serves as a checklist - a list of tasks to complete when creating a new repository using this template.
 
 - [ ] Click on "Use this template" and follow the steps to create a new repository.
-- [ ] Update the [repository name](#template-asset-repository) in this file.
-- [ ] Update the [repository description](#template-asset-repository) in this file.
-- [ ] Update the [repository author](#template-asset-repository) in this file.
-- [ ] Update the [link(s)](#template-asset-repository) of the badges.
+- [ ] Update the [repository name](#template-word-document-repository) in this file.
+- [ ] Update the [repository description](#template-word-document-repository) in this file.
+- [ ] Update the [repository author](#template-word-document-repository) in this file.
+- [ ] Update the [link(s)](#template-word-document-repository) of the badges.
 - [ ] Fill in the information under the [license](#license) heading in this file.
 - [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
