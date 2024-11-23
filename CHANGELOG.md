@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Use only local [Creative Commons badges](./assets/images/icons/cc/).
+
 ## 1.0.3
 
 - Corrected some names and links in [README.md](./README.md).
