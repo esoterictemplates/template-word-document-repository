@@ -1,5 +1,5 @@
 # Prompt the user for the desired file extension
-$fileExtension = Read-Host "Enter the desired file extension (e.g., docx, pptx, xlsx)"
+$fileExtension = "docx"
 
 # Validate the input
 if (-not $fileExtension -or $fileExtension -match '[^\w]') {
