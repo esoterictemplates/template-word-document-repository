@@ -20,7 +20,12 @@ $currentDir = $PWD.ProviderPath
 # Get all items in the current directory excluding the specified ones
 $items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
     $relativePath = $_.FullName.Substring($currentDir.Length).TrimStart("\", "/")
-    -not ($relativePath -in $excludedItems)
+    
+    # Debugging: Show the relative path of each file
+    Write-Host "Checking file: $relativePath"
+    
+    # Exclude items if they match any of the exclusions
+    -not ($excludedItems -contains $relativePath)
 } | ForEach-Object {
     # Only return files (not directories)
     if ($_ -is [System.IO.FileInfo]) {
