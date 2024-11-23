@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <w:settings xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16du">
     <w:zoom w:percent="160"/>
+    <w:proofState w:spelling="clean" w:grammar="clean"/>
     <w:defaultTabStop w:val="720"/>
     <w:characterSpacingControl w:val="doNotCompress"/>
     <w:compat>
-        <w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="15"/>
-        <w:compatSetting w:name="overrideTableStyleFontSizeAndJustification" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
-        <w:compatSetting w:name="enableOpenTypeFeatures" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
-        <w:compatSetting w:name="doNotFlipMirrorIndents" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
-        <w:compatSetting w:name="differentiateMultirowTableHeaders" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
-        <w:compatSetting w:name="useWord2013TrackBottomHyphenation" w:uri="http://schemas.microsoft.com/office/word" w:val="0"/>
+        <w:useFELayout/>
+        <w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="12"/>
+        <w:compatSetting w:name="useWord2013TrackBottomHyphenation" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
     </w:compat>
     <w:rsids>
-        <w:rsidRoot w:val="006C1E83"/>
-        <w:rsid w:val="001E0FCD"/>
-        <w:rsid w:val="005F530B"/>
-        <w:rsid w:val="006C1E83"/>
-        <w:rsid w:val="00B42B09"/>
-        <w:rsid w:val="00EB5AA9"/>
+        <w:rsidRoot w:val="002D7917"/>
+        <w:rsid w:val="002D7917"/>
+        <w:rsid w:val="004F730A"/>
+        <w:rsid w:val="00953D14"/>
+        <w:rsid w:val="00BD0CCF"/>
     </w:rsids>
     <m:mathPr>
         <m:mathFont m:val="Cambria Math"/>
@@ -42,7 +39,5 @@
     </w:shapeDefaults>
     <w:decimalSymbol w:val="."/>
     <w:listSeparator w:val=","/>
-    <w14:docId w14:val="39F79DBD"/>
-    <w15:chartTrackingRefBased/>
-    <w15:docId w15:val="{9F6C02B3-B9FC-4058-8874-62924A8FF91A}"/>
+    <w15:docId w15:val="{42E1E475-2817-4B3B-A148-A3707C3D5603}"/>
 </w:settings>
