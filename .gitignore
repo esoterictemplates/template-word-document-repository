@@ -1,5 +1,26 @@
+# Lock files
+~$*
+.~lock.*#
+*.lock
 Document.*
 *.zip
 
+# Node.js packages and information
 node_modules
 package-lock.json
+
+# Archive/binary files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.iso
+*.7z
+*.rar
+*.bin
+*.exe
+*.apk
+*.msi
+*.jar
+*.class
