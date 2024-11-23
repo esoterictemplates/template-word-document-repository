@@ -1,6 +1,6 @@
 # Template Word Document Repository
 
-<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [CC BY-SA-4.0](./LICENSE), generated from [Template Word Document Repository](https://github.com/EsotericTemplates/template-word-document-repository) [1.1.2](https://github.com/EsotericTemplates/template-word-document-repository/tree/1.1.2)</sup>
+<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [CC BY-SA-4.0](./LICENSE), generated from [Template Word Document Repository](https://github.com/EsotericTemplates/template-word-document-repository) [1.0.0](https://github.com/EsotericTemplates/template-word-document-repository/tree/1.0.0)</sup>
 
 [![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository)
 
