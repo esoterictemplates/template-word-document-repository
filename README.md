@@ -4,7 +4,7 @@
 
 [![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-word-document-repository)](https://github.com/EsotericTemplates/template-word-document-repository)
 
-This repository serves as a template for generating new GitHub repositories for zip files.
+This repository serves as a template for generating new GitHub repositories for Word documents.
 
 ## Requirements
 
@@ -17,11 +17,11 @@ This repository serves as a template for generating new GitHub repositories for 
 
 ### Editing The Document
 
-#### Compressing to a Zip File
+#### Compressing to a Word Document
 
 - Run `scripts/zip.ps1`.
 
-#### Decompressing to Files For Version Control
+#### Decompressing to XML Files For Version Control
 
 - Run `scripts/unzip.bash`.
 - Make sure you have your author name configured in your .gitconfig.
