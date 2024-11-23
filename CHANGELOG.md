@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Generalised the repository to be a general "zip file" template.
+
 ## 1.0.1
 
 - Pulled changes from upstream, which includes the following:
