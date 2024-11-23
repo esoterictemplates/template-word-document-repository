@@ -1,6 +1,6 @@
 # Template Repository
 
-<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [GPL-3.0](./LICENSE), generated from [Template Repository](https://github.com/EsotericTemplates/template-repository) [1.0.0](https://github.com/EsotericTemplates/template-repository/tree/1.0.0)</sup>
+<sup>By [Esoteric Enderman](https://enderman.dev), licensed under [GPL-3.0](./LICENSE), generated from [Template Repository](https://github.com/EsotericTemplates/template-repository) [1.0.1](https://github.com/EsotericTemplates/template-repository/tree/1.0.1)</sup>
 
 [![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository)
 
