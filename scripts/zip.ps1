@@ -22,8 +22,10 @@ $items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
     $relativePath = $_.FullName.Substring($currentDir.Length).TrimStart("\", "/")
     -not ($relativePath -in $excludedItems)
 } | ForEach-Object {
-    # Generate relative paths for each item
-    $_.FullName.Substring($currentDir.Length).TrimStart("\", "/")
+    # Only return files (not directories)
+    if ($_ -is [System.IO.FileInfo]) {
+        $_.FullName
+    }
 }
 
 # Check if there are items to process
@@ -51,9 +53,10 @@ if (Test-Path $zipFile) { Remove-Item -Path $zipFile -Force }
 # Create a temporary file list for 7-Zip to avoid duplicate file names
 $tempFileList = Join-Path $currentDir "filelist.txt"
 
-# Write relative file paths to the temporary list (escape special characters and enforce UTF-8)
+# Write relative file paths to the temporary list
 $items | ForEach-Object {
-    "`"$currentDir\`"$_" # Quote each relative path
+    $relativePath = $_.Substring($currentDir.Length).TrimStart("\", "/")
+    "`"$relativePath`""  # Add quotes around the relative paths
 } | Set-Content -Path $tempFileList -Encoding UTF8
 
 # Build and run the 7-Zip command
