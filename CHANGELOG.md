@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Corrected some names and links in [README.md](./README.md).
+
 ## 1.0.2
 
 - Downloaded the [Creative Commons badges](./assets/images/icons/cc/).
