@@ -2,7 +2,7 @@
 
 <sup>By [Esoteric Enderman](https://enderman.dev), licensed under [CC-BY-SA-4.0](./LICENSE), generated from [Template Asset Repository](https://github.com/EsotericTemplates/template-asset-repository) [1.0.0](https://github.com/EsotericTemplates/template-asset-repository/tree/1.0.0)</sup>
 
-[![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository) [![Language Count](https://img.shields.io/github/languages/count/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository) [![Top Language](https://img.shields.io/github/languages/top/EsotericTemplates/template-asset-repository?label=top%20language)](https://github.com/EsotericTemplates/template-asset-repository) [![GitHub Issues](https://img.shields.io/github/issues/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/issues) [![GitHub Stars](https://img.shields.io/github/stars/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/stargazers) [![GitHub Forks](https://img.shields.io/github/forks/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository/forks)
+[![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository)
 
 This repository serves as a template for generating new GitHub repositories for asset files.
 
@@ -20,7 +20,7 @@ The following serves as a checklist - a list of tasks to complete when creating 
 - [ ] Update the [repository name](#template-repository) in this file.
 - [ ] Update the [repository description](#template-repository) in this file.
 - [ ] Update the [repository author](#template-repository) in this file.
-- [ ] Update the [links](#template-repository) of the badges.
+- [ ] Update the [link(s)](#template-repository) of the badges.
 - [ ] Fill in the information under the [license](#license) heading in this file.
 - [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
