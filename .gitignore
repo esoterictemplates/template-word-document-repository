@@ -1,6 +1,8 @@
+# Lock files
 ~$*
 .~lock.*#
 *.lock
 
+# Node.js packages and information
 node_modules
 package-lock.json
