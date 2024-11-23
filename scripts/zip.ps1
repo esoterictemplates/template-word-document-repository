@@ -42,21 +42,24 @@ if (-not (Test-Path $sevenZipPath)) {
 $zipFile = Join-Path $currentDir "Document.zip"
 $outputFile = Join-Path $currentDir "Document.$fileExtension"
 
-# Build the 7-Zip command
-$command = @($sevenZipPath, "a", "-tzip", $zipFile)
+# Ensure no pre-existing ZIP file blocks creation
+if (Test-Path $zipFile) { Remove-Item -Path $zipFile -Force }
 
-# Add the items to the command (each item quoted)
-foreach ($item in $items) {
-    $command += "`"$item`""
-}
+# Create a temporary file list for 7-Zip to avoid duplicate file names
+$tempFileList = Join-Path $currentDir "filelist.txt"
+$items | ForEach-Object { $_ -replace "`"", "`"" } > $tempFileList
 
-# Run the 7-Zip command
+# Build and run the 7-Zip command
 try {
-    Start-Process -FilePath $sevenZipPath -ArgumentList $command[1..($command.Count - 1)] -Wait -NoNewWindow
+    $arguments = @("a", "-tzip", "`"$zipFile`"", "-spf2", "@`"$tempFileList`"")
+    Start-Process -FilePath $sevenZipPath -ArgumentList $arguments -Wait -NoNewWindow
     Write-Host "Created $zipFile using 7-Zip."
 } catch {
     Write-Host "Error: Failed to create $zipFile. Exiting." -ForegroundColor Red
     exit 1
+} finally {
+    # Remove the temporary file list
+    if (Test-Path $tempFileList) { Remove-Item -Path $tempFileList -Force }
 }
 
 # Rename the ZIP file to the specified file extension
