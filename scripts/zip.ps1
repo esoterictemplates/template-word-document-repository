@@ -11,7 +11,7 @@ if (-not $fileExtension -or $fileExtension -match '[^\w]') {
 $excludedItems = @(
     ".git", ".vscode", "assets", "node_modules", "scripts",
     ".gitignore", "CHANGELOG.md", "CODE_OF_CONDUCT.md", 
-    "LICENSE", "package.json", "README.md"
+    "LICENSE", "package.json", "README.md", "package-lock.json"
 )
 
 # Convert $PWD to a string
