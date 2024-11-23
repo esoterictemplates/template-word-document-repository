@@ -2,7 +2,7 @@
 
 <sup>By [Esoteric Enderman](https://enderman.dev), licensed under [CC-BY-SA-4.0](./LICENSE), generated from [Template Asset Repository](https://github.com/EsotericTemplates/template-asset-repository) [1.0.2](https://github.com/EsotericTemplates/template-asset-repository/tree/1.0.2)</sup>
 
-[![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-repository)](https://github.com/EsotericTemplates/template-repository)
+[![Repository Size](https://img.shields.io/github/repo-size/EsotericTemplates/template-asset-repository)](https://github.com/EsotericTemplates/template-asset-repository)
 
 This repository serves as a template for generating new GitHub repositories for asset files.
 
@@ -17,10 +17,10 @@ All information to do with the template repository is under this heading "[Using
 The following serves as a checklist - a list of tasks to complete when creating a new repository using this template.
 
 - [ ] Click on "Use this template" and follow the steps to create a new repository.
-- [ ] Update the [repository name](#template-repository) in this file.
-- [ ] Update the [repository description](#template-repository) in this file.
-- [ ] Update the [repository author](#template-repository) in this file.
-- [ ] Update the [link(s)](#template-repository) of the badges.
+- [ ] Update the [repository name](#template-asset-repository) in this file.
+- [ ] Update the [repository description](#template-asset-repository) in this file.
+- [ ] Update the [repository author](#template-asset-repository) in this file.
+- [ ] Update the [link(s)](#template-asset-repository) of the badges.
 - [ ] Fill in the information under the [license](#license) heading in this file.
 - [ ] Fill in the contact details in the [code of conduct](./CODE_OF_CONDUCT.md) file.
 - [ ] Clear the [changelog](./CHANGELOG.md) file.
