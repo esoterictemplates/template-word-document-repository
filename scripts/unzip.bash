@@ -1,13 +1,22 @@
 #!/bin/bash
 
+# Find the file matching "Document.*"
+file=$(ls Document.* 2>/dev/null)
+
 # Ensure the file exists
-if [ ! -f "Document.docx" ]; then
-  echo "Error: Document.docx not found!"
+if [ -z "$file" ]; then
+  echo "Error: No file matching Document.* found!"
   exit 1
 fi
 
-# Rename Document.docx to Document.zip
-mv "Document.docx" "Document.zip"
+# Check if the file is actually a zip archive
+if ! file "$file"; then
+  echo "Error: $file is not a valid zip archive!"
+  exit 1
+fi
+
+# Rename the file to Document.zip
+mv "$file" "Document.zip"
 
 # Unzip the renamed file, replacing existing files
 unzip -o "Document.zip"
@@ -17,7 +26,9 @@ unzip -o "Document.zip"
 
 echo "Extraction complete."
 
-mv "Document.zip" "Document.docx"
+# Rename it back to the original name
+mv "Document.zip" "$file"
 
+# Run the Node.js scripts
 node scripts/format.js
 node scripts/replaceAuthor.js
