@@ -14,9 +14,12 @@ $excludedItems = @(
     "LICENSE", "package.json", "README.md"
 )
 
+# Convert $PWD to a string
+$currentDir = $PWD.ProviderPath
+
 # Get all items in the current directory excluding the specified ones
-$items = Get-ChildItem -Path $PWD -Recurse -File | Where-Object {
-    $relativePath = $_.FullName -replace "$PWD[\\\/]?", ""
+$items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
+    $relativePath = $_.FullName.Substring($currentDir.Length).TrimStart("\", "/")
     -not ($relativePath -in $excludedItems)
 } | ForEach-Object { $_.FullName }
 
@@ -26,32 +29,30 @@ if (-not $items) {
     exit 1
 }
 
-# Path to the 7-Zip executable (quoted)
-$sevenZipPath = '"C:\Program Files\7-Zip\7z.exe"'
+# Path to the 7-Zip executable
+$sevenZipPath = "C:\Program Files\7-Zip\7z.exe"
 
 # Verify 7-Zip is installed
-if (-not (Test-Path $sevenZipPath -replace '"', '')) {
+if (-not (Test-Path $sevenZipPath)) {
     Write-Host "Error: 7-Zip not found at $sevenZipPath. Please install it and try again." -ForegroundColor Red
     exit 1
 }
 
 # Create the ZIP file
-$zipFile = Join-Path $PWD "Document.zip"
-$outputFile = Join-Path $PWD "Document.$fileExtension"
+$zipFile = Join-Path $currentDir "Document.zip"
+$outputFile = Join-Path $currentDir "Document.$fileExtension"
 
 # Build the 7-Zip command
-$command = @("$sevenZipPath", "a", "-tzip", "`"$zipFile`"")
+$command = @($sevenZipPath, "a", "-tzip", $zipFile)
 
 # Add the items to the command (each item quoted)
 foreach ($item in $items) {
-    $command += "`"$item`""  # Add escaped paths to the command
+    $command += "`"$item`""
 }
 
 # Run the 7-Zip command
 try {
-    # Join the arguments into a single string for Start-Process
-    $arguments = $command[1..($command.Count - 1)] -join " "
-    Start-Process -FilePath $sevenZipPath -ArgumentList $arguments -Wait -NoNewWindow
+    Start-Process -FilePath $sevenZipPath -ArgumentList $command[1..($command.Count - 1)] -Wait -NoNewWindow
     Write-Host "Created $zipFile using 7-Zip."
 } catch {
     Write-Host "Error: Failed to create $zipFile. Exiting." -ForegroundColor Red
