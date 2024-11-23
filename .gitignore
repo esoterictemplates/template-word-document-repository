@@ -1,4 +1,4 @@
-*.docx
+Document.*
 *.zip
 
 node_modules
