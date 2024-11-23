@@ -26,7 +26,7 @@ $items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
     Write-Host "Checking file: $relativePath"
 
     for ($i = 0; $i -lt $excludedItems.Length; $i++) {
-        if (($relativePath -contains $excludedItems[$i] -or $relativePath -like "*$($excludedItems[$i])*") -and !$relativePath.EndsWith(".xml")) {
+        if (($relativePath -contains $excludedItems[$i] -or $relativePath -like "*$($excludedItems[$i])*") -and !$relativePath.EndsWith(".xml") -and !$relativePath.EndsWith(".rels")) {
             return $false
         }
     }
