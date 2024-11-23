@@ -2,7 +2,7 @@
 
 ## 1.0.2
 
-- Downloaded the [Creative Commons Badges](./assets/images/icons/cc/).
+- Downloaded the [Creative Commons badges](./assets/images/icons/cc/).
 
 ## 1.0.1
 
