@@ -47,7 +47,11 @@ if (Test-Path $zipFile) { Remove-Item -Path $zipFile -Force }
 
 # Create a temporary file list for 7-Zip to avoid duplicate file names
 $tempFileList = Join-Path $currentDir "filelist.txt"
-$items | ForEach-Object { $_ -replace "`"", "`"" } > $tempFileList
+
+# Write file paths to the temporary list (escape special characters and enforce UTF-8)
+$items | ForEach-Object {
+    "`"$_`"" # Quote each path
+} | Set-Content -Path $tempFileList -Encoding UTF8
 
 # Build and run the 7-Zip command
 try {
