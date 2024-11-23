@@ -4,19 +4,20 @@
     <w:defaultTabStop w:val="720"/>
     <w:characterSpacingControl w:val="doNotCompress"/>
     <w:compat>
-        <w:useFELayout/>
-        <w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="12"/>
-        <w:compatSetting w:name="useWord2013TrackBottomHyphenation" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+        <w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="15"/>
+        <w:compatSetting w:name="overrideTableStyleFontSizeAndJustification" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+        <w:compatSetting w:name="enableOpenTypeFeatures" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+        <w:compatSetting w:name="doNotFlipMirrorIndents" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+        <w:compatSetting w:name="differentiateMultirowTableHeaders" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+        <w:compatSetting w:name="useWord2013TrackBottomHyphenation" w:uri="http://schemas.microsoft.com/office/word" w:val="0"/>
     </w:compat>
     <w:rsids>
-        <w:rsidRoot w:val="00EB55EC"/>
-        <w:rsid w:val="00222AEE"/>
-        <w:rsid w:val="004E31C7"/>
-        <w:rsid w:val="007076F7"/>
-        <w:rsid w:val="008F06DE"/>
-        <w:rsid w:val="00D10BB6"/>
-        <w:rsid w:val="00EB55EC"/>
-        <w:rsid w:val="00FF42AD"/>
+        <w:rsidRoot w:val="00E40A7A"/>
+        <w:rsid w:val="001E0FCD"/>
+        <w:rsid w:val="001E1FEC"/>
+        <w:rsid w:val="005F530B"/>
+        <w:rsid w:val="00B27E34"/>
+        <w:rsid w:val="00E40A7A"/>
     </w:rsids>
     <m:mathPr>
         <m:mathFont m:val="Cambria Math"/>
@@ -41,6 +42,7 @@
     </w:shapeDefaults>
     <w:decimalSymbol w:val="."/>
     <w:listSeparator w:val=","/>
-    <w14:docId w14:val="565E042B"/>
-    <w15:docId w15:val="{D71BB020-FDED-4CB6-A1E9-003BC310A2E4}"/>
+    <w14:docId w14:val="1DFCFB98"/>
+    <w15:chartTrackingRefBased/>
+    <w15:docId w15:val="{27977531-79A3-47B3-81DC-C2245A6893EC}"/>
 </w:settings>
