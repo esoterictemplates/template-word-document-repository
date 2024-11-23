@@ -1,3 +1,12 @@
+# Prompt the user for the desired file extension
+$fileExtension = Read-Host "Enter the desired file extension (e.g., docx, pptx, xlsx)"
+
+# Validate the input
+if (-not $fileExtension -or $fileExtension -match '[^\w]') {
+    Write-Host "Error: Invalid file extension provided. Exiting." -ForegroundColor Red
+    exit 1
+}
+
 # Define the paths to the files and directories
 $items = @("_rels", "docProps", "word", "[Content_Types].xml")
 
@@ -29,7 +38,7 @@ if (-not (Test-Path $sevenZipPath -replace '"', '')) {
 
 # Create the ZIP file
 $zipFile = Join-Path $PWD "Document.zip"
-$docxFile = Join-Path $PWD "Document.docx"
+$outputFile = Join-Path $PWD "Document.$fileExtension"
 
 # Build the 7-Zip command
 $command = @("$sevenZipPath", "a", "-tzip", "`"$zipFile`"")
@@ -50,8 +59,8 @@ try {
     exit 1
 }
 
-# Rename the ZIP file to .docx
-if (Test-Path $docxFile) { Remove-Item -Path $docxFile -Force }
-Rename-Item -Path $zipFile -NewName $docxFile
+# Rename the ZIP file to the specified file extension
+if (Test-Path $outputFile) { Remove-Item -Path $outputFile -Force }
+Rename-Item -Path $zipFile -NewName $outputFile
 
-Write-Host "Document.docx has been created successfully and should now open in Word."
+Write-Host "Document.$fileExtension has been created successfully."
