@@ -11,7 +11,8 @@ if (-not $fileExtension -or $fileExtension -match '[^\w]') {
 $excludedItems = @(
     ".git", ".vscode", "assets", "node_modules", "scripts",
     ".gitignore", "CHANGELOG.md", "CODE_OF_CONDUCT.md", 
-    "LICENSE", "package.json", "README.md", "package-lock.json"
+    "LICENSE", "package.json", "README.md", "package-lock.json",
+    "Document", ".zip"
 )
 
 # Convert $PWD to a string
@@ -25,7 +26,7 @@ $items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
     Write-Host "Checking file: $relativePath"
 
     for ($i = 0; $i -lt $excludedItems.Length; $i++) {
-        if ($relativePath -like "*$($excludedItems[$i])*") {
+        if (($relativePath -contains $excludedItems[$i] -or $relativePath -like "*$($excludedItems[$i])*") -and !$relativePath.EndsWith(".xml")) {
             return $false
         }
     }
