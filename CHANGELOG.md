@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+- Pulled upstream $\rightarrow$ added [.gitignore](./.gitignore).
+
 ## 1.1.0
 
 - Generalised the repository to be a general "zip file" template.
