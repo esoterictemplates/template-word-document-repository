@@ -21,7 +21,10 @@ $currentDir = $PWD.ProviderPath
 $items = Get-ChildItem -Path $currentDir -Recurse | Where-Object {
     $relativePath = $_.FullName.Substring($currentDir.Length).TrimStart("\", "/")
     -not ($relativePath -in $excludedItems)
-} | ForEach-Object { $_.FullName }
+} | ForEach-Object {
+    # Generate relative paths for each item
+    $_.FullName.Substring($currentDir.Length).TrimStart("\", "/")
+}
 
 # Check if there are items to process
 if (-not $items) {
@@ -48,9 +51,9 @@ if (Test-Path $zipFile) { Remove-Item -Path $zipFile -Force }
 # Create a temporary file list for 7-Zip to avoid duplicate file names
 $tempFileList = Join-Path $currentDir "filelist.txt"
 
-# Write file paths to the temporary list (escape special characters and enforce UTF-8)
+# Write relative file paths to the temporary list (escape special characters and enforce UTF-8)
 $items | ForEach-Object {
-    "`"$_`"" # Quote each path
+    "`"$currentDir\`"$_" # Quote each relative path
 } | Set-Content -Path $tempFileList -Encoding UTF8
 
 # Build and run the 7-Zip command
@@ -61,10 +64,10 @@ try {
 } catch {
     Write-Host "Error: Failed to create $zipFile. Exiting." -ForegroundColor Red
     exit 1
-} finally {
-    # Remove the temporary file list
-    if (Test-Path $tempFileList) { Remove-Item -Path $tempFileList -Force }
 }
+
+# Clean up the temporary file list
+if (Test-Path $tempFileList) { Remove-Item -Path $tempFileList -Force }
 
 # Rename the ZIP file to the specified file extension
 if (Test-Path $outputFile) { Remove-Item -Path $outputFile -Force }
