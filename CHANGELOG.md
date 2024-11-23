@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+- Updated upstream $\rightarrow$ added [.gitignore](./.gitignore).
+
 ## 1.0.4
 
 - Use only local [Creative Commons badges](./assets/images/icons/cc/).
